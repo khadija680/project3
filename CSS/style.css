@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Cabin&family=Lobster&family=Merriweather:ital@1&display=swap');
+/****start body*****/
+body {
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather', serif;
+}
+/****end header*****/
+
+/****start header*****/
+.header{
+    background-color:rgba(36, 188, 46, 0.811);
+    color:aliceblue;
+    height:50px;
+    line-height: 50px;
+}
+.header a {
+    float: right;
+    margin-top: 5px;
+} 
+/****end header*****/
+/****start slider*****/
+.carousel-indicators li {
+    height: 20px;
+    background-color:chartreuse;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(173, 216, 230, 0.089);
+    position: absolute;
+    z-index: 1;
+}
+/****end slider*****/
+/****start feutures*****/
+.feutures {
+    margin-top: 75px;
+}
+.feutures i{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(120, 100%, 25%);
+    line-height: 100px;
+    color: white;
+    font-size: 40px;
+}
+.feutures h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: rgba(0, 128, 0, 0.543);
+    color: white;
+}
+.feutures p {
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.737);
+}
+.feutures h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    background-color:rgba(128, 255, 0, 0.856);
+    display: inline-block;
+}
+
+/****end feutures*****/
+
+/****start our team*****/
+.our-team h2 {
+    background-color:rgba(128, 255, 0, 0.856);
+    display: inline-block;
+}
+.our-team {
+    background-color:#eee;
+    padding: 60px;
+    background-image: url(../images/back3.jpg);
+    border-bottom: 3px solid greenyellow;
+}
+/****end our team*****/
+/****start statistic*****/
+.statistic {
+    background-image: url(../images/sta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    background-attachment: fixed;
+}
+.statistic .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    padding-top: 100px; 
+}
+.statistic .overlay h3 {
+    color:hsl(120, 100%, 25%);
+}
+.statistic .overlay p {
+    background-color: rgba(255, 255, 0, 0.76);
+    font-size: 50px;
+}
+/****end statistic*****/
+/*****start our customers*****/
+.our-customers {
+    background-color: white;
+    line-height: 200px;
+    background-image: url(../images/back3.jpg);
+    margin-top: 100px;
+    background-attachment: fixed;
+    border-bottom: 5px solid greenyellow;
+}
+.our-customers h2 {
+    font-size: 40px;
+    background-color:rgba(128, 255, 0, 0.856);
+    display: inline-block;
+}
+.our-customers .row {
+    background-color:white;
+    margin-bottom: 30px;
+    border: 3px solid greenyellow
+}
+/*****end our customers*****/
+/*****start recent news******/
+.recent-news .btn-danger {
+    background-color: cadetblue;
+    border-color: greenyellow;
+} 
+.recent-news h3 {
+    background-color:rgba(128, 255, 0, 0.856);
+    display: inline-block;
+}
+/*****end recent news******/
+/*****start footer******/
+.footer {
+    background-color:rgba(36, 188, 46, 0.811);
+    padding: 30px;
+    margin-top: 150px;
+}
+.footer p {
+    color: white;
+}
+.footer h2 {
+    color: white;
+}
+.footer a {
+    color: white;
+}
+.footer a:hover {
+    color: yellow;
+}
+.footer ul li {
+    list-style: none;
+}
+/*****end footer******/
+/*****start blog******/
+
+.jumbotron {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.jumbotron .blog-info {
+    flex: 2;
+}
+.jumbotron .blog-image {
+    flex: 1;
+}
+.blogs .btn-danger {
+    background-color: cadetblue;
+    border-color: greenyellow;
+} 
+
+/*****end blog******/
+/*****start blog-details******/
+.blog-details p {
+    line-height: 2 ;
+    padding: 10px;
+}
+/*****end blog-details******/
+/*****start courses******/
+
+.courses img:hover {
+    transform: scale(1.1);
+}
+
+
+
